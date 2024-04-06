@@ -1,0 +1,52 @@
+/* SKILLS */
+.skills-section {
+	width: 100%;
+	height: fit-content;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.h-text {
+	padding-top: 25px;
+	display: flex;
+	justify-content: center;
+}
+/* Small devices (portrait tablets and phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+	.skills-section {
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+	}
+	.card {
+		margin-bottom: 5%;
+		align-self: center;
+		width: 400px;
+	}
+}
+
+/* Extra small 576px and down  (phones)*/
+@media only screen and (max-width: 576px) {
+	.card {
+		width: 350px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.card {
+		width: 330px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

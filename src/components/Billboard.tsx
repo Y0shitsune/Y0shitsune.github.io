@@ -8,7 +8,7 @@ const Billboard = () => {
 			<div className="billboard-content">
 				<img src={picture} alt="me" className="MyPicture" />
 				<div className="billboard-text">
-					<h1>This is my portfolio</h1>
+					<h1>My name is Clarence</h1>
 					<h2>
 						I am a programmer
 						<div className="hidden-text">apparently.</div>

@@ -4,11 +4,14 @@ function Card(props: any) {
 	const url = `src/assets/${props.fileName}`
 	return (
 		<div className="card">
-			<img
-				src={url}
-				className="card-img-top card-image bg-dark py-3 px-3 rounded-2"
-				alt="this"
-			></img>
+			{/* link to documentation using props */}
+			<a href="/">
+				<img
+					src={url}
+					className="card-img-top card-image bg-dark py-3 px-3 rounded-2"
+					alt="this"
+				></img>
+			</a>
 			<div className="card-body">
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione

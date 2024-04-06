@@ -34,7 +34,10 @@ const Modals = (props: any) => {
 							></button>
 						</div>
 						<div className="modal-body">
-							<img src={url} alt="" />
+							{/* redirect to project, uses props */}
+							<a href="/">
+								<img src={url} alt="" />
+							</a>
 						</div>
 					</div>
 				</div>

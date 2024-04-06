@@ -8,13 +8,13 @@ const MainContent = () => {
 		<main>
 			<Billboard />
 
-			<div className="h-text">
+			<div id="skills" className="h-text">
 				<h1 className="text-light">Skills</h1>
 			</div>
 
 			<Skills />
 
-			<div className="h-text">
+			<div id="projects" className="h-text">
 				<h1 className="text-light">Projects</h1>
 			</div>
 

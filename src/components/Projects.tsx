@@ -3,7 +3,7 @@ import CarouselImage from './CarouselImage'
 
 const Projects = () => {
 	return (
-		<div className="projects">
+		<section className="projects">
 			<div className="carousel-container">
 				<div id="project-carousel" className="carousel slide">
 					<div className="carousel-inner">
@@ -56,7 +56,7 @@ const Projects = () => {
 					</button>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

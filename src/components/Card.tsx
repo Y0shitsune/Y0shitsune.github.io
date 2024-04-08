@@ -1,5 +1,5 @@
 import '../styles/card.css'
-import config from '../../vite.config'
+import config from '../../vite.config.ts'
 
 function Card(props: any) {
 	const url = `${config.base}/assets/${props.fileName}`

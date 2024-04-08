@@ -1,7 +1,8 @@
 import '../styles/card.css'
+import config from '../../vite.config'
 
 function Card(props: any) {
-	const url = `../assets/${props.fileName}`
+	const url = `${config.base}/assets/${props.fileName}`
 	return (
 		<div className="card">
 			{/* link to documentation using props */}

@@ -1,7 +1,7 @@
 import '../styles/carouselImage.css'
 
 const Modals = (props: any) => {
-	const url = `src/assets/${props.fileName}`
+	const url = `../assets/${props.fileName}`
 
 	return (
 		<>

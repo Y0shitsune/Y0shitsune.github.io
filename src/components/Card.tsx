@@ -1,7 +1,7 @@
 import '../styles/card.css'
 
 function Card(props: any) {
-	const url = `src/assets/${props.fileName}`
+	const url = `../assets/${props.fileName}`
 	return (
 		<div className="card">
 			{/* link to documentation using props */}

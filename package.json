@@ -3,7 +3,7 @@
 	"private": false,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://Y0shitsune.github.io/web-portfolio",
+	"homepage": "https://y0shitsune.github.io/web-portfolio",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
